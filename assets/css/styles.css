@@ -1,0 +1,31 @@
+
+.hidden {
+	display: none;
+}
+
+.rojo {
+	color: red;
+}
+
+#pokebola{
+	width: 27%;
+}
+
+.well {
+	font-size: 18px;
+
+}
+
+.border-L {
+	border-bottom: solid 1px black;
+	border-left: solid 1px black;
+}
+
+.border-R {
+	border-top: solid 1px black;
+	border-right: solid 1px black;
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
